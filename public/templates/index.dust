@@ -34,9 +34,11 @@
 	</div>
 
 
-<div class="details">
-<div class="row align-center">
-  <div class="product-details column medium-6 center-text-for-small-only">
+<div id="myNav" class="details">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<!-- <div class="details-content"> -->
+<div class=" row align-center">
+  <div class="product-details  center-text-for-small-only">
     <h1>Product Name</h1>
     <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id magna ac quam semper.deta</p>
       <div class="row">
@@ -79,9 +81,11 @@
       <p class="shipping">Available for Free Ground Shipping &amp; Return</p>
   </div>
 </div>
+<!-- </div> -->
 </div>
-	<div style="width:95%; margin-left:  10px; margin-right: 10px;">
-	<div class="row" >
+
+	<div style="width:100%; margin:0px;">
+	<div class="row" style="max-width:96%; width:100%; margin:2%;">
 	<div class="large-3 columns">
 		     <!-- Product filter -->
     <div class="product-filters">
@@ -220,20 +224,20 @@
     <div class="row small-up-2 large-up-5">
       <div class="column" >
       <div class="imgwrap">
-        <img  class="" src="images/1.jpg">
+        <img  onclick="openNav()" class="" src="images/1.jpg">
         <div id="overlay">
-        <a href="#" class="button expanded">Compare prices</a>
+        <a href="#" class=" button expanded">Compare prices</a>
         </div>
-      </div>
+      </div onclick="openNav()">
         <h5 class='item-title'>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
-        <a href="#" class="button expanded">Buy</a>
+        <a  onclick="openNav()" href="#" class="button expanded">Buy</a>
       </div>
       <div class="column" >
       <div class="imgwrap">
         <img  class="" src="images/4.jpg">
         <div id="overlay">
-        <a href="#" class="button expanded">Compare prices</a>
+        <a onclick="openNav()" href="#" class="button expanded">Compare prices</a>
         </div>
       </div>
         <h5 class='item-title'>Nulla At Nulla Justo, Eget</h5>
@@ -244,7 +248,7 @@
       <div class="imgwrap">
         <img  class="" src="images/7.jpg">
         <div id="overlay">
-        <a href="#" class="button expanded">Compare prices</a>
+        <a onclick="openNav()" href="#" class="button expanded">Compare prices</a>
         </div>
       </div>
         <h5 class='item-title'>Nulla At Nulla Justo, Eget</h5>
@@ -255,7 +259,7 @@
       <div class="imgwrap">
         <img  class="" src="images/8.jpg">
         <div id="overlay">
-        <a href="#" class="button expanded">Compare prices</a>
+        <a onclick="openNav()" href="#" class="button expanded">Compare prices</a>
         </div>
       </div>
         <h5 class='item-title'>Nulla At Nulla Justo, Eget</h5>
@@ -266,7 +270,7 @@
       <div class="imgwrap">
         <img  class="" src="images/6.jpg">
         <div id="overlay">
-        <a href="#" class="button expanded">Compare prices</a>
+        <a onclick="openNav()" href="#" class="button expanded">Compare prices</a>
         </div>
       </div>
         <h5 class='item-title'>Nulla At Nulla Justo, Eget</h5>
@@ -297,7 +301,7 @@
         </div>
         <h5>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
-        <a href="#" class="button small expanded hollow">Buy</a>
+        <a onclick="openNav()" href="#" class="button small expanded hollow">Buy</a>
       </div>
       <div class="column">
       	<div class="imgwrap-s">
@@ -305,7 +309,7 @@
         </div>
         <h5>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
-        <a href="#" class="button small expanded hollow">Buy</a>
+        <a onclick="openNav()" href="#" class="button small expanded hollow">Buy</a>
       </div>
       <div class="column">
       	<div class="imgwrap-s">
@@ -313,7 +317,7 @@
         </div>
         <h5>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
-        <a href="#" class="button small expanded hollow">Buy</a>
+        <a onclick="openNav()" href="#" class="button small expanded hollow">Buy</a>
       </div>
       <div class="column">
       	<div class="imgwrap-s">
@@ -321,7 +325,7 @@
         </div>
         <h5>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
-        <a href="#" class="button small expanded hollow">Buy</a>
+        <a onclick="openNav()" href="#" class="button small expanded hollow">Buy</a>
       </div>
       <div class="column">
       	<div class="imgwrap-s">
@@ -329,7 +333,7 @@
         </div>
         <h5>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
-        <a href="#" class="button small expanded hollow">Buy</a>
+        <a onclick="openNav()" href="#" class="button small expanded hollow">Buy</a>
       </div>
       <div class="column">
       	<div class="imgwrap-s">
@@ -337,7 +341,7 @@
         </div>
         <h5>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
-        <a href="#" class="button small expanded hollow">Buy</a>
+        <a onclick="openNav()" href="#" class="button small expanded hollow">Buy</a>
       </div>
     </div>
 
@@ -457,4 +461,14 @@
 </div>
 
 </div>
+   <script>
+function openNav() {
+    console.log('clicked');
+    document.getElementById("myNav").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.display = "none";
+}
+</script>
 {/body}
