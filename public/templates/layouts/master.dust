@@ -6,9 +6,13 @@
     <title>Foundation | Welcome</title>
     <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.css">
   </head>
   <body>
 
+
+
+    
     <!-- Start Top Bar -->
     <div class="top-bar">
       <div class="top-bar-left">
@@ -29,21 +33,22 @@
     </div>
     <!-- End Top Bar -->
 
-        <div class="row">
-            <div class="large-12 columns">
+    <!--     <div class="row">
+            <div class="large-12 columns"> -->
             {+body /}
-            </div>
+      <!--       </div>
         </div>
-            
+             -->
 
-    
+
+
     <div class="callout large secondary">
       <div class="row">
         <div class="large-4 columns">
           <h5>Vivamus Hendrerit Arcu Sed Erat Molestie</h5>
           <p>Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit.</p>
         </div>
-        <div class="large-3 large-offset-2 columns">
+        <div class="large-2  columns">
           <ul class="menu vertical">
             <li><a href="#">One</a></li>
             <li><a href="#">Two</a></li>
@@ -51,17 +56,60 @@
             <li><a href="#">Four</a></li>
           </ul>
         </div>
-        <div class="large-3 columns">
+        <div class="large-2 columns">
           <ul class="menu vertical">
             <li><a href="#">One</a></li>
             <li><a href="#">Two</a></li>
             <li><a href="#">Three</a></li>
             <li><a href="#">Four</a></li>
           </ul>
+        </div>
+        <div  class="m-social large-4 columns">
+            <div class="row">
+                <h4>   Follow us</h4>
+            </div>
+            <div>
+            <a href="#" class="social-icon-button twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a>
+
+            <a href="#" class="social-icon-button facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a>
+
+            <a href="#" class="social-icon-button gplus"><i class="fa fa-google-plus" aria-hidden="true"></i><span></span></a>
+            </div>
         </div>
       </div>
     </div>
 
+    <footer>
+        <div class="row footer">
+                       
+                <div class="large-4 columns">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="large-4 columns">
+                    <h5>Our Address</h5>
+                    <address>
+                      121, Clear Water Bay Road<br>
+                      Clear Water Bay, Kowloon<br>
+                      HONG KONG<br>
+                      <i class="fa fa-phone"></i>: +852 1234 5678<br>
+                      <i class="fa fa-fax"></i>: +852 8765 4321<br>
+                      <i class="fa fa-envelope"></i>: <a href="mailto:confusion@food.net">confusion@food.net</a>
+                   </address>
+                </div>
+            
+           
+        </div>
+        <div class="row">
+                    <p style="padding:10px;"></p>
+                    <p align=center>© Copyright 2017 Muhammed Abozaid</p>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
     <script>
