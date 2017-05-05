@@ -25,28 +25,59 @@
       <hr>
     </div>
 
-    <div class="row small-up-2 large-up-4">
-      <div class="column">
-        <img class="thumbnail" src="http://placehold.it/300x400">
-        <h5>Nulla At Nulla Justo, Eget</h5>
+    <div class="row small-up-2 large-up-5">
+      <div class="column" >
+      <div class="imgwrap">
+        <img  class="" src="images/1.jpg">
+        <div id="overlay">
+        <a href="#" class="button expanded">Compare prices</a>
+        </div>
+      </div>
+        <h5 class='item-title'>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
         <a href="#" class="button expanded">Buy</a>
       </div>
-      <div class="column">
-        <img class="thumbnail" src="http://placehold.it/300x400">
-        <h5>Nulla At Nulla Justo, Eget</h5>
+      <div class="column" >
+      <div class="imgwrap">
+        <img  class="" src="images/4.jpg">
+        <div id="overlay">
+        <a href="#" class="button expanded">Compare prices</a>
+        </div>
+      </div>
+        <h5 class='item-title'>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
         <a href="#" class="button expanded">Buy</a>
       </div>
-      <div class="column">
-        <img class="thumbnail" src="http://placehold.it/300x400">
-        <h5>Nulla At Nulla Justo, Eget</h5>
+      <div class="column" >
+      <div class="imgwrap">
+        <img  class="" src="images/7.jpg">
+        <div id="overlay">
+        <a href="#" class="button expanded">Compare prices</a>
+        </div>
+      </div>
+        <h5 class='item-title'>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
         <a href="#" class="button expanded">Buy</a>
       </div>
-      <div class="column">
-        <img class="thumbnail" src="http://placehold.it/300x400">
-        <h5>Nulla At Nulla Justo, Eget</h5>
+      <div class="column" >
+      <div class="imgwrap">
+        <img  class="" src="images/8.jpg">
+        <div id="overlay">
+        <a href="#" class="button expanded">Compare prices</a>
+        </div>
+      </div>
+        <h5 class='item-title'>Nulla At Nulla Justo, Eget</h5>
+        <p>$400</p>
+        <a href="#" class="button expanded">Buy</a>
+      </div>
+      <div class="column" >
+      <div class="imgwrap">
+        <img  class="" src="images/6.jpg">
+        <div id="overlay">
+        <a href="#" class="button expanded">Compare prices</a>
+        </div>
+      </div>
+        <h5 class='item-title'>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
         <a href="#" class="button expanded">Buy</a>
       </div>
@@ -69,37 +100,49 @@
 
     <div class="row small-up-2 medium-up-3 large-up-6">
       <div class="column">
-        <img class="thumbnail" src="http://placehold.it/300x400">
+      	<div class="imgwrap-s">
+        <img class="thumbnail" src="images/5.jpg">
+        </div>
         <h5>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
         <a href="#" class="button small expanded hollow">Buy</a>
       </div>
       <div class="column">
-        <img class="thumbnail" src="http://placehold.it/300x400">
+      	<div class="imgwrap-s">
+        <img class="thumbnail" src="images/6.jpg">
+        </div>
         <h5>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
         <a href="#" class="button small expanded hollow">Buy</a>
       </div>
       <div class="column">
-        <img class="thumbnail" src="http://placehold.it/300x400">
+      	<div class="imgwrap-s">
+        <img class="thumbnail" src="images/7.jpg">
+        </div>
         <h5>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
         <a href="#" class="button small expanded hollow">Buy</a>
       </div>
       <div class="column">
-        <img class="thumbnail" src="http://placehold.it/300x400">
+      	<div class="imgwrap-s">
+        <img class="thumbnail" src="images/8.jpg">
+        </div>
         <h5>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
         <a href="#" class="button small expanded hollow">Buy</a>
       </div>
       <div class="column">
-        <img class="thumbnail" src="http://placehold.it/300x400">
+      	<div class="imgwrap-s">
+        <img class="thumbnail" src="images/9.jpg">
+        </div>
         <h5>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
         <a href="#" class="button small expanded hollow">Buy</a>
       </div>
       <div class="column">
-        <img class="thumbnail" src="http://placehold.it/300x400">
+      	<div class="imgwrap-s">
+        <img class="thumbnail" src="images/10.jpg">
+        </div>
         <h5>Nulla At Nulla Justo, Eget</h5>
         <p>$400</p>
         <a href="#" class="button small expanded hollow">Buy</a>
@@ -112,7 +155,9 @@
         <h4>Top Products</h4>
         <div class="media-object">
           <div class="media-object-section">
-            <img class="thumbnail" src="http://placehold.it/100x100">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/11.jpg">
+          </div>
           </div>
           <div class="media-object-section">
             <h5>Nunc Eu Ullamcorper Orci</h5>
@@ -121,7 +166,9 @@
         </div>
         <div class="media-object">
           <div class="media-object-section">
-            <img class="thumbnail" src="http://placehold.it/100x100">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/12.jpg">
+          </div>
           </div>
           <div class="media-object-section">
             <h5>Nunc Eu Ullamcorper Orci</h5>
@@ -130,37 +177,9 @@
         </div>
         <div class="media-object">
           <div class="media-object-section">
-            <img class="thumbnail" src="http://placehold.it/100x100">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/13.jpg">
           </div>
-          <div class="media-object-section">
-            <h5>Nunc Eu Ullamcorper Orci</h5>
-            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-          </div>
-        </div>
-      </div>
-      <div class="medium-4 columns">
-        <h4>Top Products</h4>
-        <div class="media-object">
-          <div class="media-object-section">
-            <img class="thumbnail" src="http://placehold.it/100x100">
-          </div>
-          <div class="media-object-section">
-            <h5>Nunc Eu Ullamcorper Orci</h5>
-            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-          </div>
-        </div>
-        <div class="media-object">
-          <div class="media-object-section">
-            <img class="thumbnail" src="http://placehold.it/100x100">
-          </div>
-          <div class="media-object-section">
-            <h5>Nunc Eu Ullamcorper Orci</h5>
-            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-          </div>
-        </div>
-        <div class="media-object">
-          <div class="media-object-section">
-            <img class="thumbnail" src="http://placehold.it/100x100">
           </div>
           <div class="media-object-section">
             <h5>Nunc Eu Ullamcorper Orci</h5>
@@ -172,7 +191,9 @@
         <h4>Top Products</h4>
         <div class="media-object">
           <div class="media-object-section">
-            <img class="thumbnail" src="http://placehold.it/100x100">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/15.jpg">
+          </div>
           </div>
           <div class="media-object-section">
             <h5>Nunc Eu Ullamcorper Orci</h5>
@@ -181,7 +202,9 @@
         </div>
         <div class="media-object">
           <div class="media-object-section">
-            <img class="thumbnail" src="http://placehold.it/100x100">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/15.jpg">
+          </div>
           </div>
           <div class="media-object-section">
             <h5>Nunc Eu Ullamcorper Orci</h5>
@@ -190,7 +213,45 @@
         </div>
         <div class="media-object">
           <div class="media-object-section">
-            <img class="thumbnail" src="http://placehold.it/100x100">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/15.jpg">
+          </div>
+          </div>
+          <div class="media-object-section">
+            <h5>Nunc Eu Ullamcorper Orci</h5>
+            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+          </div>
+        </div>
+      </div>
+      <div class="medium-4 columns">
+        <h4>Top Products</h4>
+        <div class="media-object">
+          <div class="media-object-section">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/15.jpg">
+          </div>
+          </div>
+          <div class="media-object-section">
+            <h5>Nunc Eu Ullamcorper Orci</h5>
+            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+          </div>
+        </div>
+        <div class="media-object">
+          <div class="media-object-section">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/15.jpg">
+          </div>
+          </div>
+          <div class="media-object-section">
+            <h5>Nunc Eu Ullamcorper Orci</h5>
+            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+          </div>
+        </div>
+        <div class="media-object">
+          <div class="media-object-section">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/15.jpg">
+          </div>
           </div>
           <div class="media-object-section">
             <h5>Nunc Eu Ullamcorper Orci</h5>
