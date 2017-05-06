@@ -1,0 +1,474 @@
+{>"layouts/master" /}
+
+{<body}
+
+	
+
+	  <div class="row">
+            <div class="large-12 columns"> 
+    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+      <ul class="orbit-container">
+        <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+        <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+        <li class="orbit-slide is-active">
+          <img src="http://placehold.it/2000x750">
+        </li>
+        <li class="orbit-slide">
+          <img src="http://placehold.it/2000x750">
+        </li>
+        <li class="orbit-slide">
+          <img src="http://placehold.it/2000x750">
+        </li>
+        <li class="orbit-slide">
+          <img src="http://placehold.it/2000x750">
+        </li>
+      </ul>
+    </div>
+
+    <div class="row column text-center">
+      <h2>Our Newest Products</h2>
+      <hr>
+    </div>
+	
+	</div>
+	</div>
+
+
+<div id="myNav" class="details">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<!-- <div class="details-content"> -->
+<div class=" row align-center">
+  <div class="product-details  center-text-for-small-only">
+    <h1>Product Name</h1>
+    <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id magna ac quam semper.deta</p>
+      <div class="row">
+        <div class="column small-12 large-6">
+          <h6 class="product-color-title">Colors</h6>
+            <form class="product-option-selection">
+              <input type="radio" name="radios" value="red" id="radio1" checked>
+              <label for="radio1" class=" dark-hollow expand"><img src="http://placehold.it/30x30"/></label>
+              <input type="radio" name="radios" value="blue" id="radio2">
+              <label for="radio2" class=" dark-hollow expand"><img src="http://placehold.it/30x30"/></label>
+              <input type="radio" name="radios" value="yellow" id="radio3">
+              <label for="radio3" class=" dark-hollow expand"><img src="http://placehold.it/30x30"/></label>
+              <input type="radio" name="radios" value="orange" id="radio4">
+              <label for="radio4" class=" dark-hollow expand"><img src="http://placehold.it/30x30"/></label> 
+              <input type="radio" name="radios" value="green" id="radio5">
+              <label for="radio5" class=" dark-hollow expand"><img src="http://placehold.it/30x30"/></label>     
+            </form>
+        </div>
+        <div class="column small-12 large-6">
+          <h6 class="product-color-title">Size</h6>
+            <form class="product-option-selection">
+                <select>
+                  <option value="husker">Small</option>
+                  <option value="starbuck">Medium</option>
+                  <option value="hotdog">Large</option>
+                  <option value="apollo">X-Large</option>
+                  <option value="apollo">XX-Large</option>
+                </select>
+              </label>
+            </form>
+        </div>
+      </div>      
+      <div class="product-details-add-to-cart">
+        <p><span class="in-stock">In Stock</span> <span class="dim-text">(Only 3 left in Stock)</span></p>
+        <hr>
+        <p class="price">$19.99</p>
+        <p> <span>Qty:</span> <input class="qty" type="text" value="1"> </p>
+        <button class="button expanded">Add to Cart</button>
+      </div>
+      <p class="shipping">Available for Free Ground Shipping &amp; Return</p>
+  </div>
+</div>
+<!-- </div> -->
+</div>
+
+	<div style="width:100%; margin:0px;">
+	<div class="row" style="max-width:96%; width:100%; margin:2%;">
+	<div class="large-3 columns">
+		     <!-- Product filter -->
+    <div class="product-filters">
+  <ul class="mobile-product-filters vertical menu show-for-small-only" data-accordion-menu>
+   <li>
+     <a href="#"><h2>Products</h2></a>   
+     <ul class="vertical menu" data-accordion-menu>
+      <li class="product-filters-tab">
+        <a href="#">Category</a>
+        <ul class="categories-menu menu vertical nested is-active">
+           <a href="#" class="clear-all" id="category-clear-all">Clear All</a> 
+           <li><input class="category-clear-selection" id="category-checkbox1" type="checkbox"><label for="category-checkbox1">Category 1</label></li>
+           <li><input class="category-clear-selection" id="category-checkbox2" type="checkbox"><label for="category-checkbox2">Category 2</label></li>
+           <li><input class="category-clear-selection" id="category-checkbox3" type="checkbox"><label for="category-checkbox3">Category 3</label></li>
+           <li><input class="category-clear-selection" id="category-checkbox4" type="checkbox"><label for="category-checkbox4">Category 4</label></li>
+           <li><input class="category-clear-selection" id="category-checkbox5" type="checkbox"><label for="category-checkbox5">Category 5</label></li>
+           <li><input class="category-clear-selection" id="category-checkbox6" type="checkbox"><label for="category-checkbox6">Category 6</label></li>
+           <li><input class="category-clear-selection" id="category-checkbox7" type="checkbox"><label for="category-checkbox7">Category 7</label></li>
+           <li><input class="category-clear-selection" id="category-checkbox8" type="checkbox"><label for="category-checkbox8">Category 8</label></li>
+           <li><input class="category-clear-selection" id="category-checkbox9" type="checkbox"><label for="category-checkbox9">Category 9</label></li>
+           <li><input class="category-clear-selection" id="category-checkbox10" type="checkbox"><label for="category-checkbox10">Category 10</label></li>
+           <li><input class="category-clear-selection" id="category-checkbox11" type="checkbox"><label for="category-checkbox11">Category 11</label></li>
+           <li><input class="category-clear-selection" id="category-checkbox12" type="checkbox"><label for="category-checkbox12">Category 12</label></li>
+           <li><input class="category-clear-selection" id="category-checkbox13" type="checkbox"><label for="category-checkbox13">Category 13</label></li>
+           <li><input class="category-clear-selection" id="category-checkbox14" type="checkbox"><label for="category-checkbox14">Category 14</label></li>
+           <li><input class="category-clear-selection" id="category-checkbox15" type="checkbox"><label for="category-checkbox15">Category 15</label></li>
+         </ul>
+     </li>
+     <li class="product-filters-tab">
+        <a href="#">Size</a>
+        <ul class="categories-menu menu vertical nested is-active">
+          <a href="#" class="clear-all" id="size-clear-all">Clear All</a>  
+          <li><input id="size-checkbox1" type="checkbox"><label for="size-checkbox1">Small</label></li>
+          <li><input id="size-checkbox2" type="checkbox"><label for="size-checkbox2">Medium</label></li>
+          <li><input id="size-checkbox3" type="checkbox"><label for="size-checkbox3">Large</label></li>
+          <li><input id="size-checkbox3" type="checkbox"><label for="size-checkbox3">X-Large</label></li>
+          <li><input id="size-checkbox3" type="checkbox"><label for="size-checkbox3">XX-Large</label></li>
+        </ul>
+
+      </li>
+     <li class="product-filters-tab">
+        <a href="#">Color</a>
+        <ul class="categories-menu menu vertical nested">
+          <a href="#" class="clear-all" id="color-clear-all">Clear All</a>  
+          <li><input id="color-checkbox1" type="checkbox"><label for="color-checkbox1">All Color</label></li>
+          <li><input id="color-checkbox2" type="checkbox"><label for="color-checkbox2">Black</label></li>
+          <li><input id="color-checkbox3" type="checkbox"><label for="color-checkbox3">White</label></li>
+          <li><input id="color-checkbox4" type="checkbox"><label for="color-checkbox4">Grey</label></li>
+          <li><input id="color-checkbox5" type="checkbox"><label for="color-checkbox5">Red</label></li>
+          <li><input id="color-checkbox6" type="checkbox"><label for="color-checkbox6">Blue</label></li>
+          <li><input id="color-checkbox7" type="checkbox"><label for="color-checkbox7">Green</label></li>
+          <li><input id="color-checkbox8" type="checkbox"><label for="color-checkbox8">Purple</label></li>
+          <li><input id="color-checkbox8" type="checkbox"><label for="color-checkbox8">Multi-color</label></li>
+        </ul>
+      </li>
+     <li class="product-filters-tab"> 
+        <a href="#">Price</a>
+        <ul class="categories-menu menu vertical nested">
+          <a href="#" class="clear-all" id="price-clear-all">Clear All</a> 
+          <li><input id="price-checkbox1" type="checkbox"><label for="price-checkbox1">Under $25</label></li>
+          <li><input id="price-checkbox2" type="checkbox"><label for="price-checkbox2">$25–$50</label></li>
+          <li><input id="price-checkbox3" type="checkbox"><label for="price-checkbox3">$50–$250</label></li>
+          <li><input id="price-checkbox4" type="checkbox"><label for="price-checkbox4">$250–$600</label></li>
+          <li><input id="price-checkbox4" type="checkbox"><label for="price-checkbox4">$600–$1,000</label></li>
+        </ul>
+      </li>
+     </ul>
+   </li>
+ </ul>
+ 
+ <h1 class="product-filters-header hide-for-small-only">Products</h1>
+ <ul class="vertical menu hide-for-small-only" data-accordion-menu>
+    <li class="product-filters-tab">
+      <a href="#">Category</a>
+      <ul class="categories-menu menu vertical nested is-active">
+         <a href="#" class="clear-all" id="category-clear-all">Clear All</a> 
+         <li><input id="category-checkbox1" type="checkbox"><label for="category-checkbox1">Category 1</label></li>
+         <li><input id="category-checkbox2" type="checkbox"><label for="category-checkbox2">Category 2</label></li>
+         <li><input id="category-checkbox3" type="checkbox"><label for="category-checkbox3">Category 3</label></li>
+         <li><input id="category-checkbox4" type="checkbox"><label for="category-checkbox4">Category 4</label></li>
+         <li><input id="category-checkbox5" type="checkbox"><label for="category-checkbox5">Category 5</label></li>
+         <li><input id="category-checkbox6" type="checkbox"><label for="category-checkbox6">Category 6</label></li>
+         <li><input id="category-checkbox7" type="checkbox"><label for="category-checkbox7">Category 7</label></li>
+         <li><input id="category-checkbox8" type="checkbox"><label for="category-checkbox8">Category 8</label></li>
+         <li><input id="category-checkbox9" type="checkbox"><label for="category-checkbox9">Category 9</label></li>
+         <li><input id="category-checkbox10" type="checkbox"><label for="category-checkbox10">Category 10</label></li>
+         <li><input id="category-checkbox11" type="checkbox"><label for="category-checkbox11">Category 11</label></li>
+         <li><input id="category-checkbox12" type="checkbox"><label for="category-checkbox12">Category 12</label></li>
+         <li><input id="category-checkbox13" type="checkbox"><label for="category-checkbox13">Category 13</label></li>
+         <li><input id="category-checkbox14" type="checkbox"><label for="category-checkbox14">Category 14</label></li>
+         <li><input id="category-checkbox15" type="checkbox"><label for="category-checkbox15">Category 15</label></li>
+      </ul>
+   </li>
+   <li class="product-filters-tab">
+      <a href="#">Size</a>
+      <ul class="categories-menu menu vertical nested is-active">
+        <a href="#" class="clear-all" id="size-clear-all">Clear All</a>  
+        <li><input id="size-checkbox1" type="checkbox"><label for="size-checkbox1">Small</label></li>
+        <li><input id="size-checkbox2" type="checkbox"><label for="size-checkbox2">Medium</label></li>
+        <li><input id="size-checkbox3" type="checkbox"><label for="size-checkbox3">Large</label></li>
+        <li><input id="size-checkbox3" type="checkbox"><label for="size-checkbox3">X-Large</label></li>
+        <li><input id="size-checkbox3" type="checkbox"><label for="size-checkbox3">XX-Large</label></li>
+      </ul>
+   </li>
+   <li class="product-filters-tab">
+      <a href="#">Color</a>
+      <ul class="categories-menu menu vertical nested">
+        <a href="#" class="clear-all" id="color-clear-all">Clear All</a>  
+        <li><input id="color-checkbox1" type="checkbox"><label for="color-checkbox1">All Color</label></li>
+        <li><input id="color-checkbox2" type="checkbox"><label for="color-checkbox2">Black</label></li>
+        <li><input id="color-checkbox3" type="checkbox"><label for="color-checkbox3">White</label></li>
+        <li><input id="color-checkbox4" type="checkbox"><label for="color-checkbox4">Grey</label></li>
+        <li><input id="color-checkbox5" type="checkbox"><label for="color-checkbox5">Red</label></li>
+        <li><input id="color-checkbox6" type="checkbox"><label for="color-checkbox6">Blue</label></li>
+        <li><input id="color-checkbox7" type="checkbox"><label for="color-checkbox7">Green</label></li>
+        <li><input id="color-checkbox8" type="checkbox"><label for="color-checkbox8">Purple</label></li>
+        <li><input id="color-checkbox8" type="checkbox"><label for="color-checkbox8">Multi-color</label></li>
+      </ul>
+   </li>
+   <li class="product-filters-tab"> 
+      <a href="#">Price</a>
+      <ul class="categories-menu menu vertical nested">
+        <a href="#" class="clear-all" id="price-clear-all">Clear All</a> 
+        <li><input id="price-checkbox1" type="checkbox"><label for="price-checkbox1">Under $25</label></li>
+        <li><input id="price-checkbox2" type="checkbox"><label for="price-checkbox2">$25–$50</label></li>
+        <li><input id="price-checkbox3" type="checkbox"><label for="price-checkbox3">$50–$250</label></li>
+        <li><input id="price-checkbox4" type="checkbox"><label for="price-checkbox4">$250–$600</label></li>
+        <li><input id="price-checkbox4" type="checkbox"><label for="price-checkbox4">$600–$1,000</label></li>
+      </ul>
+    </li>
+  </ul>  
+</div>
+
+	</div>
+	<div class="large-9 columns">
+    <div class="row small-up-2 large-up-5">
+      <div class="column" >
+      <div class="imgwrap">
+        <img  onclick="openNav()" class="" src="images/1.jpg">
+        <div id="overlay">
+        <a href="#" class=" button expanded">Compare prices</a>
+        </div>
+      </div onclick="openNav()">
+        <h5 class='item-title'>Nulla At Nulla Justo, Eget</h5>
+        <p>$400</p>
+        <a  onclick="openNav()" href="#" class="button expanded">Buy</a>
+      </div>
+      <div class="column" >
+      <div class="imgwrap">
+        <img  class="" src="images/4.jpg">
+        <div id="overlay">
+        <a onclick="openNav()" href="#" class="button expanded">Compare prices</a>
+        </div>
+      </div>
+        <h5 class='item-title'>Nulla At Nulla Justo, Eget</h5>
+        <p>$400</p>
+        <a href="#" class="button expanded">Buy</a>
+      </div>
+      <div class="column" >
+      <div class="imgwrap">
+        <img  class="" src="images/7.jpg">
+        <div id="overlay">
+        <a onclick="openNav()" href="#" class="button expanded">Compare prices</a>
+        </div>
+      </div>
+        <h5 class='item-title'>Nulla At Nulla Justo, Eget</h5>
+        <p>$400</p>
+        <a href="#" class="button expanded">Buy</a>
+      </div>
+      <div class="column" >
+      <div class="imgwrap">
+        <img  class="" src="images/8.jpg">
+        <div id="overlay">
+        <a onclick="openNav()" href="#" class="button expanded">Compare prices</a>
+        </div>
+      </div>
+        <h5 class='item-title'>Nulla At Nulla Justo, Eget</h5>
+        <p>$400</p>
+        <a href="#" class="button expanded">Buy</a>
+      </div>
+      <div class="column" >
+      <div class="imgwrap">
+        <img  class="" src="images/6.jpg">
+        <div id="overlay">
+        <a onclick="openNav()" href="#" class="button expanded">Compare prices</a>
+        </div>
+      </div>
+        <h5 class='item-title'>Nulla At Nulla Justo, Eget</h5>
+        <p>$400</p>
+        <a href="#" class="button expanded">Buy</a>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row column">
+      <div class="callout primary">
+        <h3>Really big special this week on items.</h3>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row column text-center">
+      <h2>Some Other Neat Products</h2>
+      <hr>
+    </div>
+
+    <div class="row small-up-2 medium-up-3 large-up-6">
+      <div class="column">
+      	<div class="imgwrap-s">
+        <img class="thumbnail" src="images/5.jpg">
+        </div>
+        <h5>Nulla At Nulla Justo, Eget</h5>
+        <p>$400</p>
+        <a onclick="openNav()" href="#" class="button small expanded hollow">Buy</a>
+      </div>
+      <div class="column">
+      	<div class="imgwrap-s">
+        <img class="thumbnail" src="images/6.jpg">
+        </div>
+        <h5>Nulla At Nulla Justo, Eget</h5>
+        <p>$400</p>
+        <a onclick="openNav()" href="#" class="button small expanded hollow">Buy</a>
+      </div>
+      <div class="column">
+      	<div class="imgwrap-s">
+        <img class="thumbnail" src="images/7.jpg">
+        </div>
+        <h5>Nulla At Nulla Justo, Eget</h5>
+        <p>$400</p>
+        <a onclick="openNav()" href="#" class="button small expanded hollow">Buy</a>
+      </div>
+      <div class="column">
+      	<div class="imgwrap-s">
+        <img class="thumbnail" src="images/8.jpg">
+        </div>
+        <h5>Nulla At Nulla Justo, Eget</h5>
+        <p>$400</p>
+        <a onclick="openNav()" href="#" class="button small expanded hollow">Buy</a>
+      </div>
+      <div class="column">
+      	<div class="imgwrap-s">
+        <img class="thumbnail" src="images/9.jpg">
+        </div>
+        <h5>Nulla At Nulla Justo, Eget</h5>
+        <p>$400</p>
+        <a onclick="openNav()" href="#" class="button small expanded hollow">Buy</a>
+      </div>
+      <div class="column">
+      	<div class="imgwrap-s">
+        <img class="thumbnail" src="images/10.jpg">
+        </div>
+        <h5>Nulla At Nulla Justo, Eget</h5>
+        <p>$400</p>
+        <a onclick="openNav()" href="#" class="button small expanded hollow">Buy</a>
+      </div>
+    </div>
+
+    <hr>
+    <div class="row">
+      <div class="medium-4 columns">
+        <h4>Top Products</h4>
+        <div class="media-object">
+          <div class="media-object-section">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/11.jpg">
+          </div>
+          </div>
+          <div class="media-object-section">
+            <h5>Nunc Eu Ullamcorper Orci</h5>
+            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+          </div>
+        </div>
+        <div class="media-object">
+          <div class="media-object-section">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/12.jpg">
+          </div>
+          </div>
+          <div class="media-object-section">
+            <h5>Nunc Eu Ullamcorper Orci</h5>
+            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+          </div>
+        </div>
+        <div class="media-object">
+          <div class="media-object-section">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/13.jpg">
+          </div>
+          </div>
+          <div class="media-object-section">
+            <h5>Nunc Eu Ullamcorper Orci</h5>
+            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+          </div>
+        </div>
+      </div>
+      <div class="medium-4 columns">
+        <h4>Top Products</h4>
+        <div class="media-object">
+          <div class="media-object-section">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/15.jpg">
+          </div>
+          </div>
+          <div class="media-object-section">
+            <h5>Nunc Eu Ullamcorper Orci</h5>
+            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+          </div>
+        </div>
+        <div class="media-object">
+          <div class="media-object-section">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/15.jpg">
+          </div>
+          </div>
+          <div class="media-object-section">
+            <h5>Nunc Eu Ullamcorper Orci</h5>
+            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+          </div>
+        </div>
+        <div class="media-object">
+          <div class="media-object-section">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/15.jpg">
+          </div>
+          </div>
+          <div class="media-object-section">
+            <h5>Nunc Eu Ullamcorper Orci</h5>
+            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+          </div>
+        </div>
+      </div>
+      <div class="medium-4 columns">
+        <h4>Top Products</h4>
+        <div class="media-object">
+          <div class="media-object-section">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/15.jpg">
+          </div>
+          </div>
+          <div class="media-object-section">
+            <h5>Nunc Eu Ullamcorper Orci</h5>
+            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+          </div>
+        </div>
+        <div class="media-object">
+          <div class="media-object-section">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/15.jpg">
+          </div>
+          </div>
+          <div class="media-object-section">
+            <h5>Nunc Eu Ullamcorper Orci</h5>
+            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+          </div>
+        </div>
+        <div class="media-object">
+          <div class="media-object-section">
+          <div class='img-s'>
+            <img class="thumbnail" src="images/15.jpg">
+          </div>
+          </div>
+          <div class="media-object-section">
+            <h5>Nunc Eu Ullamcorper Orci</h5>
+            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+</div>
+   <script>
+function openNav() {
+    console.log('clicked');
+    document.getElementById("myNav").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.display = "none";
+}
+</script>
+{/body}
